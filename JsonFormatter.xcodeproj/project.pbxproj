@@ -16,6 +16,13 @@
 		46392C421CC3686C00325B36 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C401CC3686C00325B36 /* IDEKit.framework */; };
 		46392C431CC3686C00325B36 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C411CC3686C00325B36 /* IDEFoundation.framework */; };
 		46392C451CC3689600325B36 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C441CC3689600325B36 /* DVTFoundation.framework */; };
+		46392D111CC5263100325B36 /* CCPDocumentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D041CC5263100325B36 /* CCPDocumentationManager.m */; };
+		46392D121CC5263100325B36 /* CCPPathResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D061CC5263100325B36 /* CCPPathResolver.m */; };
+		46392D131CC5263100325B36 /* CCPProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D081CC5263100325B36 /* CCPProject.m */; };
+		46392D141CC5263100325B36 /* CCPRunOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D0A1CC5263100325B36 /* CCPRunOperation.m */; };
+		46392D151CC5263100325B36 /* CCPShellRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D0C1CC5263100325B36 /* CCPShellRunner.m */; };
+		46392D161CC5263100325B36 /* CCPWorkspaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D0E1CC5263100325B36 /* CCPWorkspaceManager.m */; };
+		46392D171CC5263100325B36 /* CCPXCodeConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392D101CC5263100325B36 /* CCPXCodeConsole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,20 @@
 		46392C401CC3686C00325B36 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
 		46392C411CC3686C00325B36 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
 		46392C441CC3689600325B36 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		46392D031CC5263100325B36 /* CCPDocumentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPDocumentationManager.h; sourceTree = "<group>"; };
+		46392D041CC5263100325B36 /* CCPDocumentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPDocumentationManager.m; sourceTree = "<group>"; };
+		46392D051CC5263100325B36 /* CCPPathResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPPathResolver.h; sourceTree = "<group>"; };
+		46392D061CC5263100325B36 /* CCPPathResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPPathResolver.m; sourceTree = "<group>"; };
+		46392D071CC5263100325B36 /* CCPProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPProject.h; sourceTree = "<group>"; };
+		46392D081CC5263100325B36 /* CCPProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPProject.m; sourceTree = "<group>"; };
+		46392D091CC5263100325B36 /* CCPRunOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPRunOperation.h; sourceTree = "<group>"; };
+		46392D0A1CC5263100325B36 /* CCPRunOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPRunOperation.m; sourceTree = "<group>"; };
+		46392D0B1CC5263100325B36 /* CCPShellRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPShellRunner.h; sourceTree = "<group>"; };
+		46392D0C1CC5263100325B36 /* CCPShellRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPShellRunner.m; sourceTree = "<group>"; };
+		46392D0D1CC5263100325B36 /* CCPWorkspaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPWorkspaceManager.h; sourceTree = "<group>"; };
+		46392D0E1CC5263100325B36 /* CCPWorkspaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPWorkspaceManager.m; sourceTree = "<group>"; };
+		46392D0F1CC5263100325B36 /* CCPXCodeConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPXCodeConsole.h; sourceTree = "<group>"; };
+		46392D101CC5263100325B36 /* CCPXCodeConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPXCodeConsole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +128,33 @@
 		46392C181CC360B400325B36 /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				46392D021CC5263100325B36 /* Helpers */,
 				46392C191CC360B400325B36 /* SharedXcode.h */,
 				46392C1A1CC360B400325B36 /* SharedXcode.m */,
 				46392C1B1CC360B400325B36 /* xprivates.h */,
 			);
 			path = Xcode;
+			sourceTree = "<group>";
+		};
+		46392D021CC5263100325B36 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46392D031CC5263100325B36 /* CCPDocumentationManager.h */,
+				46392D041CC5263100325B36 /* CCPDocumentationManager.m */,
+				46392D051CC5263100325B36 /* CCPPathResolver.h */,
+				46392D061CC5263100325B36 /* CCPPathResolver.m */,
+				46392D071CC5263100325B36 /* CCPProject.h */,
+				46392D081CC5263100325B36 /* CCPProject.m */,
+				46392D091CC5263100325B36 /* CCPRunOperation.h */,
+				46392D0A1CC5263100325B36 /* CCPRunOperation.m */,
+				46392D0B1CC5263100325B36 /* CCPShellRunner.h */,
+				46392D0C1CC5263100325B36 /* CCPShellRunner.m */,
+				46392D0D1CC5263100325B36 /* CCPWorkspaceManager.h */,
+				46392D0E1CC5263100325B36 /* CCPWorkspaceManager.m */,
+				46392D0F1CC5263100325B36 /* CCPXCodeConsole.h */,
+				46392D101CC5263100325B36 /* CCPXCodeConsole.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46392D161CC5263100325B36 /* CCPWorkspaceManager.m in Sources */,
+				46392D121CC5263100325B36 /* CCPPathResolver.m in Sources */,
 				46392C0C1CC3603300325B36 /* JsonFormatter.m in Sources */,
+				46392D141CC5263100325B36 /* CCPRunOperation.m in Sources */,
+				46392D171CC5263100325B36 /* CCPXCodeConsole.m in Sources */,
+				46392D151CC5263100325B36 /* CCPShellRunner.m in Sources */,
+				46392D131CC5263100325B36 /* CCPProject.m in Sources */,
 				46392C1C1CC360B400325B36 /* SharedXcode.m in Sources */,
 				46392C0F1CC3603400325B36 /* NSObject_Extension.m in Sources */,
+				46392D111CC5263100325B36 /* CCPDocumentationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

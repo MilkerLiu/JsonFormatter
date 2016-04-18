@@ -44,7 +44,7 @@
     NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
     if (menuItem) {
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Json-Formatter"
+        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Json Format"
                                                                 action:@selector(doJsonFormatAction)
                                                          keyEquivalent:@""];
         
