@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461C606F1CC5211E00472615 /* yyy.json in Resources */ = {isa = PBXBuildFile; fileRef = 461C606E1CC5211E00472615 /* yyy.json */; };
+		46392C091CC3603300325B36 /* JsonFormatter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 46392C081CC3603300325B36 /* JsonFormatter.xcscheme */; };
+		46392C0C1CC3603300325B36 /* JsonFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392C0B1CC3603300325B36 /* JsonFormatter.m */; };
+		46392C0F1CC3603400325B36 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392C0E1CC3603400325B36 /* NSObject_Extension.m */; };
+		46392C1C1CC360B400325B36 /* SharedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 46392C1A1CC360B400325B36 /* SharedXcode.m */; };
+		46392C3F1CC3685F00325B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C3E1CC3685F00325B36 /* Foundation.framework */; };
+		46392C421CC3686C00325B36 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C401CC3686C00325B36 /* IDEKit.framework */; };
+		46392C431CC3686C00325B36 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C411CC3686C00325B36 /* IDEFoundation.framework */; };
+		46392C451CC3689600325B36 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46392C441CC3689600325B36 /* DVTFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461C606E1CC5211E00472615 /* yyy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yyy.json; sourceTree = "<group>"; };
+		46392BFF1CC3603300325B36 /* JsonFormatter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonFormatter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		46392C081CC3603300325B36 /* JsonFormatter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = JsonFormatter.xcscheme; path = JsonFormatter.xcodeproj/xcshareddata/xcschemes/JsonFormatter.xcscheme; sourceTree = SOURCE_ROOT; };
+		46392C0A1CC3603300325B36 /* JsonFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonFormatter.h; sourceTree = "<group>"; };
+		46392C0B1CC3603300325B36 /* JsonFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonFormatter.m; sourceTree = "<group>"; };
+		46392C0D1CC3603400325B36 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		46392C0E1CC3603400325B36 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		46392C101CC3603400325B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46392C191CC360B400325B36 /* SharedXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedXcode.h; sourceTree = "<group>"; };
+		46392C1A1CC360B400325B36 /* SharedXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedXcode.m; sourceTree = "<group>"; };
+		46392C1B1CC360B400325B36 /* xprivates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xprivates.h; sourceTree = "<group>"; };
+		46392C3B1CC3670500325B36 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		46392C3E1CC3685F00325B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46392C401CC3686C00325B36 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		46392C411CC3686C00325B36 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		46392C441CC3689600325B36 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46392BFD1CC3603300325B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46392C451CC3689600325B36 /* DVTFoundation.framework in Frameworks */,
+				46392C421CC3686C00325B36 /* IDEKit.framework in Frameworks */,
+				46392C431CC3686C00325B36 /* IDEFoundation.framework in Frameworks */,
+				46392C3F1CC3685F00325B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46392BF61CC3603300325B36 = {
+			isa = PBXGroup;
+			children = (
+				46392C061CC3603300325B36 /* JsonFormatter */,
+				46392C011CC3603300325B36 /* Frameworks */,
+				46392C001CC3603300325B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46392C001CC3603300325B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46392BFF1CC3603300325B36 /* JsonFormatter.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46392C011CC3603300325B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46392C441CC3689600325B36 /* DVTFoundation.framework */,
+				46392C401CC3686C00325B36 /* IDEKit.framework */,
+				46392C411CC3686C00325B36 /* IDEFoundation.framework */,
+				46392C3E1CC3685F00325B36 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46392C061CC3603300325B36 /* JsonFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				46392C181CC360B400325B36 /* Xcode */,
+				46392C0A1CC3603300325B36 /* JsonFormatter.h */,
+				46392C0B1CC3603300325B36 /* JsonFormatter.m */,
+				46392C0D1CC3603400325B36 /* NSObject_Extension.h */,
+				46392C0E1CC3603400325B36 /* NSObject_Extension.m */,
+				46392C101CC3603400325B36 /* Info.plist */,
+				46392C071CC3603300325B36 /* Supporting Files */,
+				461C606E1CC5211E00472615 /* yyy.json */,
+			);
+			path = JsonFormatter;
+			sourceTree = "<group>";
+		};
+		46392C071CC3603300325B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46392C081CC3603300325B36 /* JsonFormatter.xcscheme */,
+				46392C3B1CC3670500325B36 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46392C181CC360B400325B36 /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				46392C191CC360B400325B36 /* SharedXcode.h */,
+				46392C1A1CC360B400325B36 /* SharedXcode.m */,
+				46392C1B1CC360B400325B36 /* xprivates.h */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46392BFE1CC3603300325B36 /* JsonFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46392C131CC3603400325B36 /* Build configuration list for PBXNativeTarget "JsonFormatter" */;
+			buildPhases = (
+				46392BFB1CC3603300325B36 /* Sources */,
+				46392BFC1CC3603300325B36 /* Resources */,
+				46392BFD1CC3603300325B36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonFormatter;
+			productName = JsonFormatter;
+			productReference = 46392BFF1CC3603300325B36 /* JsonFormatter.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46392BF71CC3603300325B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = milker;
+				TargetAttributes = {
+					46392BFE1CC3603300325B36 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 46392BFA1CC3603300325B36 /* Build configuration list for PBXProject "JsonFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46392BF61CC3603300325B36;
+			productRefGroup = 46392C001CC3603300325B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46392BFE1CC3603300325B36 /* JsonFormatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46392BFC1CC3603300325B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46392C091CC3603300325B36 /* JsonFormatter.xcscheme in Resources */,
+				461C606F1CC5211E00472615 /* yyy.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46392BFB1CC3603300325B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46392C0C1CC3603300325B36 /* JsonFormatter.m in Sources */,
+				46392C1C1CC360B400325B36 /* SharedXcode.m in Sources */,
+				46392C0F1CC3603400325B36 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46392C111CC3603400325B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		46392C121CC3603400325B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		46392C141CC3603400325B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PREFIX_HEADER = JsonFormatter/PrefixHeader.pch;
+				INFOPLIST_FILE = JsonFormatter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milker.xcode.plug.json-formatter.JsonFormatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		46392C151CC3603400325B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PREFIX_HEADER = JsonFormatter/PrefixHeader.pch;
+				INFOPLIST_FILE = JsonFormatter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milker.xcode.plug.json-formatter.JsonFormatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46392BFA1CC3603300325B36 /* Build configuration list for PBXProject "JsonFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46392C111CC3603400325B36 /* Debug */,
+				46392C121CC3603400325B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46392C131CC3603400325B36 /* Build configuration list for PBXNativeTarget "JsonFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46392C141CC3603400325B36 /* Debug */,
+				46392C151CC3603400325B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46392BF71CC3603300325B36 /* Project object */;
+}

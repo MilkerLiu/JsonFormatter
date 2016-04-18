@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  JsonFormatter
+//
+//  Created by milker on 16/4/17.
+//  Copyright © 2016年 milker. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+
+#import "CCPXCodeConsole.h"
+
+#import "xprivates.h"
+#endif
